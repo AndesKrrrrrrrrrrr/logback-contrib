@@ -40,7 +40,7 @@ public abstract class JsonLayoutBase<E> extends LayoutBase<E> {
 
     public JsonLayoutBase() {
         this.includeTimestamp = true;
-        this.appendLineSeparator = false;
+        this.appendLineSeparator = true;
     }
 
     @Override
